@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BoomDie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\BoomDie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BucketheadZombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\BucketheadZombie\BucketheadZombie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BucketheadZombieAttack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\BucketheadZombie\BucketheadZombieAttack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConeheadZombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\ConeheadZombie\ConeheadZombie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConeheadZombieAttack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\ConeheadZombie\ConeheadZombieAttack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlagZombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\FlagZombie\FlagZombie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlagZombieAttack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\FlagZombie\FlagZombieAttack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlagZombieLostHead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\FlagZombie\FlagZombieLostHead.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlagZombieLostHeadAttack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\FlagZombie\FlagZombieLostHeadAttack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="options_menuback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\options_menuback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoleVaultingZombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\PoleVaultingZombie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoleVaultingZombieAttack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\PoleVaultingZombieAttack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoleVaultingZombieDie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\PoleVaultingZombieDie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoleVaultingZombieHead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\PoleVaultingZombieHead.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoleVaultingZombieJump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\PoleVaultingZombieJump.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoleVaultingZombieJump2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\PoleVaultingZombieJump2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoleVaultingZombieLostHead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\PoleVaultingZombieLostHead.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoleVaultingZombieLostHeadAttack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\PoleVaultingZombieLostHeadAttack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoleVaultingZombieLostHeadWalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\PoleVaultingZombieLostHeadWalk.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoleVaultingZombieWalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\PoleVaultingZombie\PoleVaultingZombieWalk.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Sun.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="win" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\win.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\Zombie\Zombie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zombie2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\Zombie\Zombie2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zombie3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\Zombie\Zombie3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieAttack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\Zombie\ZombieAttack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieDie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\Zombie\ZombieDie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieHead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\Zombie\ZombieHead.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieLostHead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\Zombie\ZombieLostHead.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieLostHeadAttack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Zombies\Zombie\ZombieLostHeadAttack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombiesWon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\ZombiesWon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="僵尸正在接近" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\僵尸正在接近.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="冒险模式1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\冒险模式1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="冒险模式2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\冒险模式2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="准备" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\准备.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="卡片槽" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\卡片槽.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="卡片背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\卡片背景.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="卡片选择栏" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\卡片选择栏.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="双发射手" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\双发射手.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="向日葵" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\向日葵.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="喷菇子弹" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\喷菇子弹.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="喷菇子弹碰撞" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\喷菇子弹碰撞.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="坚果墙1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\坚果墙1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="坚果墙2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\坚果墙2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="坚果墙3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\坚果墙3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="大喷菇" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\大喷菇.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="大喷菇子弹" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\大喷菇子弹.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="大喷菇攻击" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\大喷菇攻击.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="大阳光菇" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\大阳光菇.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="寒冰子弹1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\寒冰子弹1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="寒冰子弹2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\寒冰子弹2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="寒冰射手" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\寒冰射手.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小喷菇" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\小喷菇.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小阳光菇" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\小阳光菇.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="帮助1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\帮助1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="帮助2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\帮助2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="摇滚背景1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\摇滚背景1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="摇滚背景2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\摇滚背景2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="最后一波" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\最后一波.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="木头" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\木头.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="机枪射手" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\机枪射手.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="模式选择背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\模式选择背景.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="樱桃炸弹" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\樱桃炸弹.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="欢迎回来" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\欢迎回来.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="火" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\火.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="火子弹1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\火子弹1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="火子弹2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\火子弹2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="火炬树桩" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\火炬树桩.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="火爆辣椒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\火爆辣椒.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="火爆辣椒攻击" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\火爆辣椒攻击.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="炸" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\炸.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="点击我1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\点击我1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="点击我2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\点击我2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="点击进入" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\点击进入.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="玩玩小游戏1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\玩玩小游戏1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="玩玩小游戏2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\玩玩小游戏2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="生存模式1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\生存模式1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="生存模式2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\生存模式2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="白天背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\白天背景.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="确定退出" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\确定退出.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="菜单墓碑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\菜单墓碑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="解谜模式1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\解谜模式1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="解谜模式2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\解谜模式2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="豌豆子弹1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\豌豆子弹1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="豌豆子弹2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\豌豆子弹2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="豌豆子弹碰撞" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\豌豆子弹碰撞.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="豌豆射手" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\Plants\豌豆射手.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="退出1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\退出1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="退出2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\退出2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="选项1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\选项1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="选项2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\选项2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="铲子1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\铲子1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="铲子2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\铲子2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="铲子3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\铲子3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="阳光数背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\阳光数背景.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="黑夜背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\黑夜背景.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

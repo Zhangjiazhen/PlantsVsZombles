@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PVZ_3_2", "PVZ_2_1\PVZ_3_2.csproj", "{E0F04F42-FCE1-453C-9401-8FA81404D9DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0F04F42-FCE1-453C-9401-8FA81404D9DC}.Debug|x86.ActiveCfg = Debug|x86
+		{E0F04F42-FCE1-453C-9401-8FA81404D9DC}.Debug|x86.Build.0 = Debug|x86
+		{E0F04F42-FCE1-453C-9401-8FA81404D9DC}.Release|x86.ActiveCfg = Release|x86
+		{E0F04F42-FCE1-453C-9401-8FA81404D9DC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

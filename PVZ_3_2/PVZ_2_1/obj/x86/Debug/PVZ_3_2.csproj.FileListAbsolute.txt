@@ -1,0 +1,9 @@
+F:\毕业设计\PVZ_3_2\PVZ_2_1\bin\Debug\PVZ_2_1.exe
+F:\毕业设计\PVZ_3_2\PVZ_2_1\bin\Debug\PVZ_2_1.pdb
+F:\毕业设计\PVZ_3_2\PVZ_2_1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\毕业设计\PVZ_3_2\PVZ_2_1\obj\x86\Debug\PVZ_2_1.Form1.resources
+F:\毕业设计\PVZ_3_2\PVZ_2_1\obj\x86\Debug\PVZ_2_1.Properties.Resources.resources
+F:\毕业设计\PVZ_3_2\PVZ_2_1\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\毕业设计\PVZ_3_2\PVZ_2_1\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\毕业设计\PVZ_3_2\PVZ_2_1\obj\x86\Debug\PVZ_2_1.exe
+F:\毕业设计\PVZ_3_2\PVZ_2_1\obj\x86\Debug\PVZ_2_1.pdb
